@@ -1,4 +1,10 @@
-// for loops
+/*
+for loop :
+for(initialisaion, condition, increment/decrement)
+{
+    // code to be executed
+}
+*/
 #include <stdio.h>
 int main(){
     for(int i=0,j=0,k=0; i<10&&j<100&&k<1000 ;i++,j+=10,k+=100){
