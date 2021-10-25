@@ -8,7 +8,7 @@ int main() {
     for (i = 0; i < n; i++) {
         printf("%d ", a);
         a = a + b; // next number is sum of previous two
-        b = a - b; // previous number is difference of previous two
+        b = a - b; // current number is difference of current and next
     }
     return 0;
 }
