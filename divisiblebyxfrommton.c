@@ -6,8 +6,11 @@ int main() {
     scanf("%d %d %d", &m, &n, &x);
     for (int i = m; i <= n; i++) {
         if (i % x == 0) // if i is divisible by x
-            count++; // increase count
+        {
+            printf("%d is divisible by %d. \n",x,i);
+            count++;
+        }
     }
-    printf("The numbers divisible by %d from %d to %d is %d", x, m, n, count);
+    printf("The numbers divisible by %d from %d to %d is %d. \n", x, m, n, count);
     return 0;
 }
