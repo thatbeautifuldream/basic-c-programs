@@ -9,9 +9,6 @@ int main() {
         rev = rev * 10 + dig; // reverse the number
         n = n / 10; // remove the last digit
     }
-    if (rev == temp)
-        printf("%d is a palindrome.", temp);
-    else
-        printf("%d is not a palindrome.", temp);
+    printf("The reverse of the number %d is %d. The number is %s", temp, rev, (temp == rev) ? "palindrome." : "not palindrome.");
     return 0;
 }
